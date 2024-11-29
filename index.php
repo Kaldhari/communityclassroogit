@@ -14,7 +14,7 @@
 <body>
     <div class="container py-3">
         <div class="row">
-            <!-- Testing -->
+            
             <div class="col-md-12">
                 <div class="row justify-content-center">
                     <div class="col-md-6">
@@ -80,6 +80,7 @@
                                 if (isset($_POST["btnsubmit"])) {
                                     
                                     $codeString = "First Name: $first_name\n";
+                                    echo $first_name;
                                     $codeString .= "Last Name: $last_name\n";
                                     $codeString .= "Phonenumber: $phonenumber\n";
                                     $codeString .= "Company: $company\n";
