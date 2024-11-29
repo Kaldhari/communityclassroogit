@@ -80,9 +80,9 @@
                                 if (isset($_POST["btnsubmit"])) {
                                     
                                     $codeString = "First Name: $first_name\n";
-                                    echo $first_name;
+                                    
                                     $codeString .= "Last Name: $last_name\n";
-                                    echo $last_name;
+                                    
                                     $codeString .= "Phonenumber: $phonenumber\n";
                                     $codeString .= "Company: $company\n";
 
